@@ -1,8 +1,66 @@
-.img-container{
-    width: 100px;
-    height: 60px;
+.img-container {
+    width: 90px;
+    height: 35px;
+    border: 2px solid #ffffff; /* Fixed color code to white */
+    padding: 1px;
+    margin: 1px 10px; /* Adjusted margin */
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
+}
+
+#n1 {
+    background-color: #5b0d9b;
+    color: azure; /* Text color for TRY FOR FREE button */
+    border: 2px solid #ffffff;
+    padding: 1px 30px 1px 10px;
+    margin: 1px 30px 1px 20px;
+    
+}
+
+#n2 {
+    color: #4a0e7a; /* Text color for Talk TO SALES button */
+   border: 1px solid #30064d;
+
+}
+
+.all {
+    width: 100%;
+    height: 25%;
+    border: 2px solid #888282;
+    padding: 20px 10px 10px 10px;
+    margin: 10px; /* Adjusted margin */
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.left-container {
+    display: flex;
+}
+
+.right-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    padding: 28px 0.5px 3px 0.5px;
+    margin: 28px 10px 10px 15px; /* Adjusted margin */
+}
+i{
+    border: 1px solid #ffffff;
+    padding: 1px;
+    margin: 1px;
+}
+p{
+    border: 1px solid #ffffff;
+    padding: 1px 15px 1px 20px;
+    margin: 1px 15px 20px 1px;
 }
